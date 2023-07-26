@@ -29,7 +29,16 @@
  
     to {transform: rotate(360deg)translate(-75px)rotate(360deg);}
 }
-
+@keyframes orbit7 {
+    from {transform:rotate(0deg)translate(50px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(50px)rotate(360deg);}
+}
+@keyframes sunrotation {
+    from {transform:rotate(0deg)translate(0px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(0px)rotate(360deg);}
+}
 
 
 body {
@@ -41,6 +50,7 @@ body {
     display: block;
     top: 50%;
     left: 50%;
+    animation: sunrotation 5s linear infinite;
 
 }
 .qwixly {
@@ -56,6 +66,12 @@ body {
     position: absolute;
     display: block;
     animation: orbit2 25s linear infinite;
+}
+.bot-production {
+    fill: #bfbfbf;
+    position: absolute;
+    display: block;
+    animation: orbit7 10s linear infinite;
 }
 .conwaysGame {
     fill: #31c704;
