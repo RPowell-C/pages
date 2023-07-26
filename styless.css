@@ -1,0 +1,94 @@
+@keyframes orbit {
+   from {transform:rotate(0deg)translate(-200px)rotate(0deg);} 
+
+   to {transform: rotate(360deg)translate(-200px)rotate(360deg);}
+}
+
+@keyframes orbit2 {
+    from {transform:rotate(0deg)translate(0px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(0px)rotate(360deg);}
+}
+@keyframes orbit3 {
+    from {transform:rotate(0deg)translate(-275px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(-275px)rotate(360deg);}
+}
+@keyframes orbit4 {
+    from {transform:rotate(0deg)translate(-500px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(-500px)rotate(360deg);}
+}
+@keyframes orbit5 {
+    from {transform:rotate(0deg)translate(-475px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(-475px)rotate(360deg);}
+}
+@keyframes orbit6 {
+    from {transform:rotate(0deg)translate(-75px)rotate(0deg);} 
+ 
+    to {transform: rotate(360deg)translate(-75px)rotate(360deg);}
+}
+
+
+
+body {
+    background-color: #030121;
+}
+
+.sun {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+
+}
+.qwixly {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    animation: orbit 60s linear infinite;
+    fill: #aa08bf;
+}
+.botDocs {
+    fill: #bfbfbf;
+    position: absolute;
+    display: block;
+    animation: orbit2 25s linear infinite;
+}
+.conwaysGame {
+    fill: #31c704;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    animation: orbit3 25s linear infinite;
+}
+
+.reader {
+    fill: #912203;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    animation: orbit4 120s linear infinite;
+}
+.InfiniNote {
+    fill: #04c7c0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    animation: orbit5 180s linear infinite;
+}
+
+.FAFD {
+    fill: #a3c9c8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    animation: orbit6 45s linear infinite;
+}
+
